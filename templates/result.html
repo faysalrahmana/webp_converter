@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Conversion Result</title>
+</head>
+<body>
+    <h1>Image Conversion Result</h1>
+    <img src="{{ image_path }}" alt="Converted Image">
+    <br>
+    <a href="{{ url_for('download', filename='converted.webp') }}" download>Download WebP</a>
+</body>
+</html>
